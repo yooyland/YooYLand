@@ -1,80 +1,56 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
 # YooY Land
 
-Welcome to the official YooY Land frontend repository. This project is built with **React** and **Vite**, featuring TailwindCSS and ESLint integration. YooY Land is a blockchain-powered digital ecosystem built on the Ethereum network, utilizing the YOY token.
+YooY Land develops wallet and community applications around YOY, an ERC-20 token on Ethereum.
 
----
+## Project and official channels
 
-## 🧾 Project Overview
+- Website: https://yooyland.com/
+- Project operator: Changhun Jung (정창훈), representative of 유이랜드 주식회사.
+- Leadership and public company reference: https://yooyland.com/?page_id=1972
+- Project information and dated evidence: https://yooyland.com/?page_id=29002
+- Support: https://yooyland.com/?page_id=262
+- Email: admin@yooyland.com
+- X: https://x.com/YooYLandTeam
 
-YooY Land is an immersive decentralized platform combining DeFi, NFT, governance, and real-world utility.
+## Token
 
-Key Components:
-- 🪙 YOY Token Integration (ERC-20)
-- 🗳️ Governance via VP/Valp & Alpha Contract
-- 🛍️ NFT Marketplace
-- 💰 Staking & Reward System
-- 🌐 Multi-language / Cross-platform UX
-- 📱 PWA & Mobile Responsive
+- Name / symbol: YooY Land / YOY
+- Network: Ethereum mainnet
+- Contract: `0xf999DA2B5132eA62A158dA8A82f2265A1b1d9701`
+- Decimals: 18
+- Deployed source and token records: https://etherscan.io/token/0xf999DA2B5132eA62A158dA8A82f2265A1b1d9701
 
----
+The deployed token has owner-authorized minting and blacklist controls. It does not enforce a fixed maximum supply. A verified circulating-supply figure and an independent full security audit are not claimed. Source-code verification is not an audit.
 
-## ⚙️ Tech Stack
+## Application links
 
-| Layer         | Technology                  |
-|---------------|------------------------------|
-| Frontend      | React + Vite                |
-| UI Framework  | Tailwind CSS                |
-| Blockchain    | Web3.js, ethers.js          |
-| Wallet        | MetaMask, WalletConnect     |
-| Backend API   | Firebase / Render APIs      |
-| Dev Tools     | ESLint, Prettier            |
+- iOS: https://apps.apple.com/us/app/yooy-land-wallet/id6762594969
+- Android: https://play.google.com/store/apps/details?id=com.yooyland.wallet
+- Web application: https://yooyland.com/web/
 
----
+The app-store listings and this frontend repository are distinct artifacts. This repository is not presented as a complete source release for the published mobile apps or as deployment-matched token source.
 
-## 🚀 Getting Started
+## Repository development
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yooyland/YooYLand.git
-   cd YooYLand
+This repository contains a React and Vite frontend with Tailwind CSS and ESLint configuration.
 
+```sh
+git clone https://github.com/yooyland/YooYLand.git
+cd YooYLand
+npm ci
+npm run dev
+```
 
-   ## 📦 Features
+Other package scripts: `npm run build`, `npm run lint`, and `npm run preview`.
 
-- YOY Wallet with Web3 auto-connect
-- Real-time reward tracking
-- QR code based YOY transfer
-- VP/Valp Governance UI
-- Admin-only management panel
+## Plans and documentation
 
-## 🌐 Live Demo
+Expanded Alpha Contract automation, DAO governance, cross-chain services, NFT marketplace and staking concepts in earlier project descriptions are roadmap concepts unless supported by specific implementation evidence. Their mention does not establish deployed functionality.
 
-- Website: [https://yooyland.com](https://yooyland.com)
-- Demo: [https://yooyland.com/app](https://yooyland.com/app)
+Historical whitepaper: https://yooyland.com/wp-content/whitepaper.pdf
 
+Read it together with the corrections and current implementation disclosures at https://yooyland.com/?page_id=29002. Earlier unsupported sale, vesting, distribution and circulating-supply figures are not verified operating statistics. No listing approval or return is promised.
 
-## 🔐 License
+## License
 
 This project is licensed under the MIT License.
-
-## 📩 Contact
-
-- Email: admin@yooyland.com
-- Medium: https://medium.com/@yooyland
-- Twitter: https://twitter.com/yooyland
-- Reddit: https://reddit.com/r/YooYLand
-
